@@ -13,18 +13,12 @@ public class Es1Hash {
         int nOfWords = Integer.parseInt(scanner.nextLine());
         int totalDupli = 1;
         for (int i = 0; i < nOfWords; i++) {
-            System.out.println("Dammi la " + (i + 1) + "°" + " parola");
+            System.out.println("Dammi la " + (i + 1) + "° parola");
             String word = scanner.nextLine();
-            if (duplicateWord.contains(word)) {
-                totalDupli += 1;
-            } else if (randomWord.contains((word))) {
+            if (!randomWord.add(word)) {
                 duplicateWord.add(word);
-                randomWord.remove(word);
                 totalDupli += 1;
-            } else {
-                randomWord.add(word);
             }
-
         }
 
         System.out.println("Hai inserito " +
