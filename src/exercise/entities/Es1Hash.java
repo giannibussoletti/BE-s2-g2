@@ -33,7 +33,7 @@ public class Es1Hash {
                 + duplicateWord + "\n"
                 + "Invece hai inserito "
                 + randomWord.size()
-                + " parole uniche che sono\n"
+                + " parole uniche che sono:\n"
                 + randomWord);
     }
 
