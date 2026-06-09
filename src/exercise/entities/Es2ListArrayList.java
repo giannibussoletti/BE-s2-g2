@@ -3,7 +3,7 @@ package exercise.entities;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Es2ListArrayList {
+public abstract class Es2ListArrayList {
 
     public static List<Integer> createAList(Integer number) {
         List<Integer> randomNumberList = new ArrayList<>();
